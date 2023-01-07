@@ -2,6 +2,7 @@ const connectToMongo = require('./db')
 connectToMongo()
 
 
+
 const cors = require('cors')
 const express = require('express')
 const app = express()
